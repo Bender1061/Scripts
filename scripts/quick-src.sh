@@ -8,7 +8,7 @@ sudo easy_install -ZU setuptools && \
 mkdir ~/src
 cd ~/src && \
 (
-    git clone -b dev1 git://github.com/Bender1061/decocare.git || \
+    git clone -b decocare-cgm-decode-enhancements git@github.com:tmecklem/decocare.git || \
         (cd decocare && git pull)
     (cd decocare && \
         sudo python setup.py develop
